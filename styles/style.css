@@ -1,0 +1,98 @@
+* {
+    font-family: monospace
+}
+body {
+    margin-left:10%;
+    margin-right: 10%;
+    padding:20px;
+    border: 20px dotted;
+       
+}
+header {
+    margin-left:1%;
+    margin-right: 12%;
+    padding:200px;
+    border: 200px dotted;
+    
+}
+main {
+margin-left:100;
+    margin-right: 10%;
+    padding:20px;
+    border: 20px solid;
+    
+}
+p {
+      margin-left:10%;
+    margin-right: 10%;
+    padding:20px;
+   
+}
+
+
+ul {
+  list-style: none;
+      margin-left:10%;
+    margin-right: 10%;
+    padding:20px;
+    border: 20px dotted yellow;
+   
+}
+ 
+/*navigation menu styles*/
+nav ul {
+    list-style-type: none
+}
+nav ul li {
+    float: left;
+    margin-right:0.9em;
+}
+nav ul li a {
+    padding:0.em 1em;
+    text-decoration:none;
+    background-color: paleturquoise;
+    color: cadetblue;
+    border: 1px solid pink ;
+    border-top-left-radius: 0em 0em;/*rounded corner*/
+    border-bottom-right-radius: 0em 0em;/*another rounded corner*/
+    }
+nav ul li a: hover, nav ul li a:focus {
+    color:deeppink;
+    background-color: aqua;
+    font-weight: 100;
+    
+}
+
+/* psuedo classes */
+p::first-letter {
+    font-family: serif;
+    font-size: 55px;
+    background-color: 
+}
+
+a:hover {
+  color: greenyellow;
+}
+
+a:active {
+  color: lightpink;
+}
+
+h1{
+   color:skyblue;
+    margin-left:10%;
+    margin-right: 10%;
+    padding:20px;
+    border: 20px dotted pink;
+}
+h2 {
+     margin-left:10%;
+    margin-right: 10%;
+    padding:20px;
+    border: 20px solid lightgreen
+ 
+    
+}
+* {
+    background-color:darkmagenta 
+}
