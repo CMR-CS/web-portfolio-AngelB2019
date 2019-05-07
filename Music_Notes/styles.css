@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+}
+#instrument {
+    height: 116px;
+    width: 812px;
+    padding-right: 10px;
+    padding-top: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.box{
+    width: 100px;
+    height:100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float:left;
+}
+#c {
+    background-color: royalblue;
+    border: 3px solid blue;
+}
+ #a {
+    background-color: palegreen;
+    border: 3px solid green;
+}
+ #d {
+    background-color: mediumpurple;
+    border: 3px solid purple;
+}
+ #e {
+    background-color: hotpink;
+    border: 3px solid pink;
+          
+}
+ #f {
+    background-color: azure;
+    border: 3px solid blue;
+}
+ #g {
+    background-color: orange;
+    border: 3px solid lightorange;
+}
+ #b {
+    background-color: orchid;
+    border: 3px solid pink
+          
+}
+#c:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    
+}
+    
+#a:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+    
+}
+    
+#d:hover{
+    background-color: rebeccapurple;
+    cursor: pointer;
+    
+}
+    
+#e:hover{
+    background-color: red;
+    cursor: pointer;
+    
+}
+    
+#f:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    
+}
+    
+#g:hover{
+    background-color: deeppink;
+    cursor: pointer;
+    
+}
+    
+#b:hover{
+    background-color: brown;
+    cursor: pointer;
+    
+}
+#c:active{
+    background-color: aqua;
+}
+
+#a:active{
+    background-color: lawngreen;
+}
+#d:active{
+    background-color: mediumpurple;
+}
+#e:active{
+    background-color: orangered;
+}
+#f:active{
+    background-color: lightcyan;+
+    
+}
+#g:active{
+    background-color: pink;
+}
+#b:active{
+    background-color: sandybrown;
+}
