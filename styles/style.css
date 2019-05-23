@@ -9,6 +9,9 @@ body {
     border: 12px solid;
 
 }
+title{
+    color: aliceblue;
+}
 header {
     margin-left:1%;
     margin-right: 12%;

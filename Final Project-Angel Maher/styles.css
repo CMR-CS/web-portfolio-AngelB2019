@@ -1,0 +1,70 @@
+h1  {
+    color: lavender;
+}
+h2{
+    color: lavenderblush
+}
+
+body {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+    font-size: 35px;
+}
+ol
+{list-style: none;
+      margin-left:10%;
+    margin-right: 10%;
+    padding:20px;
+    border: 20px 
+   }
+ul  {
+  list-style: none;
+      margin-left:10%;
+    margin-right: 10%;
+    padding:20px;
+    border: 20px 
+   
+}
+dl {
+   list-style: circle;
+      margin-left:10%;
+    margin-right: 10%;
+    padding:20px;
+    border: 20px 
+    
+    
+    
+}
+/*navigation menu styles*/
+nav {
+    font-size: 22px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    float: left;
+    margin-right:0.9em;
+    
+}
+nav ul li a {
+    padding:0.em 1em;
+    text-decoration:none;
+    background-color: skyblue;
+    color: darkblue;
+    border: 1px solid yellow ;
+   
+    }
+nav ul li a: hover, nav ul li a:focus {
+    color:deeppink;
+    background-color: aqua;
+    font-weight: 100;
+    
+}
+
+
